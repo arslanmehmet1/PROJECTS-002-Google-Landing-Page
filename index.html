@@ -10,33 +10,39 @@
 <body>
     <div class="container">
         <header>
+
             <div class="leftheader">
                 <a href="https://about.google/?utm_source=google-TR&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank">About</a>
                 <a href="https://store.google.com/regionpicker" target="_blank">Store</a>
             </div>
+
             <div class="rightheader">
                 <a href="https://mail.google.com/" target="_blank">Gmail</a>
                 <a href="https://www.google.com.tr/imghp?hl=tr&authuser=0&ogbl" target="_blank">Images</a>
-                <img src="./images/appicon.png" alt="appicon">
+                <img id="icon" src="./images/appicon.png" alt="appicon">
                 <button>Sign In</button>
             </div>
+
         </header>
         <main>
             <div class="div1">
-                <img src="./images/googlelogo.png" alt="google logo">
+                <img id="google" src="./images/googlelogo.png" alt="google logo">
             </div>
             <div class="div2">
                 <form action="">
-                    <input type="search" name="" id="">
+                    <input id="search" type="search" name="" id="">
                 </form>
+                <img id="glass" src="./images/magnifying_glass.jpg" alt="magnifying_glass">
+                <img id="mic" src="./images/google_microphone.png" alt="google_microphone">
             </div>
-            <div class="div3">
-                <a href="">Google Search</a>
-                <a href="https://www.google.com/doodles">I'm feeling lucky</a>
+
+            <div class="div3" >
+                <input type="submit" value="Google Search" id="gsearch">
+                <input type="submit" value="I'm Feeling Lucky" id="lucky">
             </div>
             <div class="div4">
                 <p>
-                    Other Languages you can use Google: <span>English</span> 
+                    Other Languages you can use Google: <span id="eng">English</span> 
                 </p>
             </div>
         </main>
@@ -55,7 +61,6 @@
                     <a href="https://policies.google.com/privacy?hl=en-TR&fg=1" target="_blank">Privacy</a>
                     <a href="https://policies.google.com/terms?hl=en-TR&fg=1" target="_blank">Terms</a>
                     <a href="">Settings</a>
-
                 </div>
             </div>
         </footer>
